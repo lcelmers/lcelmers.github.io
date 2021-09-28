@@ -1,0 +1,23 @@
+<li>
+    <div class="post-link__heading">
+      <span class="post-date">
+        {{ post.date | date: "%b %-d, '%y" }}
+      </span>
+      {% unless post.title == "" %}
+          <h1 class="post-link__title">      
+            {% if post.no_url == true %}
+              {{ post.title }}
+            {% else %}
+            <a href="{{ post.external_url | post.url | absolute_url }}" class="post-link">
+              {{ post.title }}
+            </a>
+            {% endif %}
+          </h1>
+      {% else %}
+        {% include post-excerpt.html %}
+      {% endunless %}
+      {% if post.title != "" and site.show_excerpts == true %}
+        {% include post-excerpt.html %}
+      {% endif %}
+    </div>
+</li>

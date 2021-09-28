@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "my post title"
+date:   2021-09-24 13:44:39 -0600
+# external_url: https://google.com
+---
+Morbi ultricies varius commodo. Praesent eu sagittis metus, id blandit arcu. Quisque ullamcorper dictum diam, ut rutrum enim placerat ac. Etiam metus lorem, suscipit a vulputate et, dapibus sit amet nulla. Mauris facilisis tellus sed finibus pellentesque. Mauris ut dictum risus, non congue mi. Sed quis posuere mauris.
+
+[![my image description](https://via.placeholder.com/400)](https://google.com){:target="_blank"}

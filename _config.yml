@@ -1,3 +1,16 @@
+title: "Lisa Elmers"
+email: lcelmers@gmail.com
+# description: >-
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# icon: /assets/images/todo.jpg
+masthead_image_url: /assets/images/lisa-elmers-logo.jpg
+contents_image_url: /assets/images/lately.jpg
+
+# google_analytics: UAxxxxxx
+
 remote_theme: patdryburgh/hitchens
 show_excerpts: true
 excerpt_length: 0

@@ -1,0 +1,11 @@
+{% if site.data.bio %}
+  <aside class="bio clearfix">
+    <img src={{ site.data.bio.image_url }} class="bio__image" alt="Headshot" />
+    <p class="bio__text">
+      {{ site.data.bio.text }}
+    </p>
+  </aside>
+  <a href={{ site.data.bio.contact_url }} target="_blank">
+    <img src={{ site.data.bio.contact_image_url }} alt="Contact" />
+  </a>
+{% endif %}
